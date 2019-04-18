@@ -1,0 +1,20 @@
+Package: TestDCCRpkg
+Type: Package
+Title: Test my package
+Version: 0.1.0
+Author: Clintko
+Description: This is for testing.    
+    Checking to run it on DCC cluster.    
+    what to you want from me?   
+Maintainer: Clintko <clint00724@gmail.com>
+License: GPL-3
+RoxygenNote: 6.1.1
+Encoding: UTF-8
+Suggests: 
+    knitr,
+    rmarkdown,
+    testthat
+VignetteBuilder: knitr
+Imports: Rcpp
+LinkingTo: Rcpp
+
