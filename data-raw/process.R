@@ -1,7 +1,7 @@
-library(ShortRead)
-
-fa <- readFasta("data-raw/my.gen.fasta")
-fq <- readFastq("data-raw/my.gen.fastq")
+# 
+barcodes = read.table("./data-raw/barcodes.tsv", sep = "\t")
+reads    = read.table("./data-raw/reads.tsv",    sep = "\t")
+phreds   = read.table("./data-raw/phreds.tsv",   sep = "\t")
 
 # This should be the last line
-devtools::use_data(fa, fq, overwrite = TRUE)
+devtools::use_data(barcodes, reads, phreds, overwrite = TRUE)

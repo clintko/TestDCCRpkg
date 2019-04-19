@@ -14,8 +14,7 @@ Suggests:
     knitr,
     rmarkdown,
     testthat
-VignetteBuilder: knitr
-Imports: Rcpp
-LinkingTo: Rcpp
-LazyData: true
-
+VignetteBuilder: knitr  
+Imports: Rcpp  
+LinkingTo: Rcpp  
+LazyData: true  
